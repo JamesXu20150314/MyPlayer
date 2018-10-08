@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
     private void initMediaPlayer() {
 
         //dash测试流
-        Uri mUri = Uri.parse("https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd");//"https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd");//"http://www.xuzhimin.cc/data/dashcast_use.mpd");
+        Uri mUri = Uri.parse("https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd");//"http://xuzhimin.cc/elevr/therelaxatron.webm");//"https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd");//"http://www.xuzhimin.cc/data/dashcast_use.mpd");
 
         TrackSelection.Factory trackSelectionFactory=new AdaptiveTrackSelection.Factory(BANDWIDTH_METER);
         long bandwidth = BANDWIDTH_METER.getBitrateEstimate() / 1000;
